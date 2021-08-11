@@ -1,0 +1,37 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 12,
+    "unknown" : 0,
+    "total" : 12
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 12
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 9,
+    "unknown" : 0,
+    "total" : 12
+  }
+} ]

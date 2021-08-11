@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+target
+target/generated-sources/
+target/generated-test-sources/
+target/classes/
+target/test-classes/

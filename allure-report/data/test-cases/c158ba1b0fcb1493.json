@@ -1,0 +1,260 @@
+{
+  "uid" : "c158ba1b0fcb1493",
+  "name" : "Verify that user is able to fire Request to GET single user with ID",
+  "fullName" : "Dummy Rest API QA Scenarios: Verify that user is able to fire Request to GET single user with ID",
+  "historyId" : "ab9a57a23086dc5f2a012f2466dabec7",
+  "time" : {
+    "start" : 1627379643906,
+    "stop" : 1627379644250,
+    "duration" : 344
+  },
+  "description" : "Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.",
+  "descriptionHtml" : "<p>Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefination.rest.hooks.setUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1627379643906,
+      "stop" : 1627379643908,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8bf38ecebc6ff198",
+      "name" : "Text output",
+      "source" : "8bf38ecebc6ff198.txt",
+      "type" : "text/plain",
+      "size" : 11
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User triggers \"GET\" Request to Single user with ID 4",
+      "time" : {
+        "start" : 1627379643910,
+        "stop" : 1627379644218,
+        "duration" : 308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fba405495fb661b5",
+        "name" : "Text output",
+        "source" : "fba405495fb661b5.txt",
+        "type" : "text/plain",
+        "size" : 16
+      }, {
+        "uid" : "49247d6620515dd8",
+        "name" : "Text output",
+        "source" : "49247d6620515dd8.txt",
+        "type" : "text/plain",
+        "size" : 29
+      }, {
+        "uid" : "15661ae9a8309aec",
+        "name" : "Text output",
+        "source" : "15661ae9a8309aec.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "d01a6349f3cb3f5b",
+        "name" : "Text output",
+        "source" : "d01a6349f3cb3f5b.txt",
+        "type" : "text/plain",
+        "size" : 80
+      }, {
+        "uid" : "a90cfdbf909bfd70",
+        "name" : "Text output",
+        "source" : "a90cfdbf909bfd70.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates the status code of the response as 200",
+      "time" : {
+        "start" : 1627379644218,
+        "stop" : 1627379644223,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "624370db94f2a975",
+        "name" : "Text output",
+        "source" : "624370db94f2a975.txt",
+        "type" : "text/plain",
+        "size" : 378
+      }, {
+        "uid" : "c82c637bc484d999",
+        "name" : "Text output",
+        "source" : "c82c637bc484d999.txt",
+        "type" : "text/plain",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates the content type of the response as \"application/json\"",
+      "time" : {
+        "start" : 1627379644223,
+        "stop" : 1627379644225,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f947282f9673f55",
+        "name" : "Text output",
+        "source" : "7f947282f9673f55.txt",
+        "type" : "text/plain",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates that valid user ID 4 is returned in the response",
+      "time" : {
+        "start" : 1627379644225,
+        "stop" : 1627379644248,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefination.rest.hooks.tearDown()",
+    "time" : {
+      "start" : 1627379644249,
+      "stop" : 1627379644250,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f5e90de7b3c2d23d",
+      "name" : "Text output",
+      "source" : "f5e90de7b3c2d23d.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Rest2"
+  }, {
+    "name" : "tag",
+    "value" : "RestAPIRegression"
+  }, {
+    "name" : "host",
+    "value" : "28cb52dbedb0"
+  }, {
+    "name" : "thread",
+    "value" : "537@28cb52dbedb0.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "story",
+    "value" : "Verify that user is able to fire Request to GET single user with ID"
+  }, {
+    "name" : "suite",
+    "value" : "Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that user is able to fire Request to GET single user with ID"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///var/jenkins_home/workspace/Toptal-qa-Automation-QA-Scenarios/src/main/java/feature/RestScenarios.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.java.feature.RestScenarios_feature.Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "28cd0b6c96d65ed8",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/28cd0b6c96d65ed8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379195579,
+          "stop" : 1627379196924,
+          "duration" : 1345
+        }
+      }, {
+        "uid" : "395e3c6a3cd0517c",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/395e3c6a3cd0517c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627182901850,
+          "stop" : 1627182903226,
+          "duration" : 1376
+        }
+      } ]
+    },
+    "tags" : [ "RestAPIRegression", "Rest2" ]
+  },
+  "source" : "c158ba1b0fcb1493.json",
+  "parameterValues" : [ ]
+}

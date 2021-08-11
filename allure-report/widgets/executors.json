@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://toptalqa:8080/",
+  "buildOrder" : 3,
+  "buildName" : "Toptal-qa-Automation-QA-Scenarios #3",
+  "buildUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure"
+} ]

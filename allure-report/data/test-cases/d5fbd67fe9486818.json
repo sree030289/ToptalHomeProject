@@ -1,0 +1,310 @@
+{
+  "uid" : "d5fbd67fe9486818",
+  "name" : "03 - Verify newly added Employee is able to subscribe to marketplace successfully",
+  "fullName" : "Orange HRM Open source management QA Scenarios: 03 - Verify newly added Employee is able to subscribe to marketplace successfully",
+  "historyId" : "6493bd220a4f713d703034c46609a4a9",
+  "time" : {
+    "start" : 1627379533811,
+    "stop" : 1627379552917,
+    "duration" : 19106
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefination.web.hooks.setUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1627379533812,
+      "stop" : 1627379537417,
+      "duration" : 3605
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4c64c2cda428814",
+      "name" : "Text output",
+      "source" : "d4c64c2cda428814.txt",
+      "type" : "text/plain",
+      "size" : 11
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to Orange HRM Application",
+      "time" : {
+        "start" : 1627379537418,
+        "stop" : 1627379543212,
+        "duration" : 5794
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cda965915c40c6d5",
+        "name" : "loginScreen",
+        "source" : "cda965915c40c6d5.png",
+        "type" : "image/png",
+        "size" : 83135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given  User login into Application with \"EMP\" creds",
+      "time" : {
+        "start" : 1627379543213,
+        "stop" : 1627379547429,
+        "duration" : 4216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "35a38c4ee5065d46",
+        "name" : "Text output",
+        "source" : "35a38c4ee5065d46.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "adf82796a565c437",
+        "name" : "Text output",
+        "source" : "adf82796a565c437.txt",
+        "type" : "text/plain",
+        "size" : 26
+      }, {
+        "uid" : "fd1dc244c335c89e",
+        "name" : "Text output",
+        "source" : "fd1dc244c335c89e.txt",
+        "type" : "text/plain",
+        "size" : 20
+      }, {
+        "uid" : "57a457904dd15f31",
+        "name" : "Text output",
+        "source" : "57a457904dd15f31.txt",
+        "type" : "text/plain",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  he navigates to Dashboard section",
+      "time" : {
+        "start" : 1627379547430,
+        "stop" : 1627379548113,
+        "duration" : 683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3ebc5eba76ae2c0",
+        "name" : "dashboardMenu",
+        "source" : "f3ebc5eba76ae2c0.png",
+        "type" : "image/png",
+        "size" : 47919
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  he clicks on subscribe marketplace link and provides \"dummyname\" and \"dummy@example.com\"",
+      "time" : {
+        "start" : 1627379548114,
+        "stop" : 1627379551204,
+        "duration" : 3090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8340ed6ac3d3597",
+        "name" : "subscriber",
+        "source" : "e8340ed6ac3d3597.png",
+        "type" : "image/png",
+        "size" : 48120
+      }, {
+        "uid" : "655e231d35e72757",
+        "name" : "username and email",
+        "source" : "655e231d35e72757.png",
+        "type" : "image/png",
+        "size" : 48776
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Verify subscribe is not displayed",
+      "time" : {
+        "start" : 1627379551204,
+        "stop" : 1627379551375,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96bc000f2b502cc2",
+        "name" : "success message",
+        "source" : "96bc000f2b502cc2.png",
+        "type" : "image/png",
+        "size" : 36902
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  he logout of the application",
+      "time" : {
+        "start" : 1627379551376,
+        "stop" : 1627379552809,
+        "duration" : 1433
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b0a26ded3ffdcf8",
+        "name" : "Logged out",
+        "source" : "8b0a26ded3ffdcf8.png",
+        "type" : "image/png",
+        "size" : 83135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefination.web.hooks.tearDown()",
+    "time" : {
+      "start" : 1627379552810,
+      "stop" : 1627379552917,
+      "duration" : 107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f00cba81b951cfc2",
+      "name" : "Text output",
+      "source" : "f00cba81b951cfc2.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SubscribeEmp"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "host",
+    "value" : "28cb52dbedb0"
+  }, {
+    "name" : "thread",
+    "value" : "537@28cb52dbedb0.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "story",
+    "value" : "03 - Verify newly added Employee is able to subscribe to marketplace successfully"
+  }, {
+    "name" : "suite",
+    "value" : "Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "03 - Verify newly added Employee is able to subscribe to marketplace successfully"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///var/jenkins_home/workspace/Toptal-qa-Automation-QA-Scenarios/src/main/java/feature/WebScenarios.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.java.feature.WebScenarios_feature.Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Email",
+    "value" : "dummy@example.com"
+  }, {
+    "name" : "UserName",
+    "value" : "dummyname"
+  }, {
+    "name" : "UserType",
+    "value" : "EMP"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "79f19bb1e2ee010b",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/79f19bb1e2ee010b",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"message success\"]\"}\n  (Session info: headless chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.bU7kWo}, goog:chromeOptions: {debuggerAddress: localhost:34195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d1f145534cbd6eaadfb2425eeba415a5\n*** Element info: {Using=xpath, value=//*[@class=\"message success\"]}",
+        "time" : {
+          "start" : 1627379074814,
+          "stop" : 1627379101877,
+          "duration" : 27063
+        }
+      }, {
+        "uid" : "78e9306c17115147",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/78e9306c17115147",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_dashboard_index\"}\n  (Session info: headless chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.IvrPCM}, goog:chromeOptions: {debuggerAddress: localhost:33699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 57582c5d98dbdab8c27302b0c2b0e88c\n*** Element info: {Using=id, value=menu_dashboard_index}",
+        "time" : {
+          "start" : 1627182717542,
+          "stop" : 1627182741064,
+          "duration" : 23522
+        }
+      } ]
+    },
+    "tags" : [ "Regression", "SubscribeEmp" ]
+  },
+  "source" : "d5fbd67fe9486818.json",
+  "parameterValues" : [ "dummy@example.com", "dummyname", "EMP" ]
+}

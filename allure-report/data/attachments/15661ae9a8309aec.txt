@@ -1,0 +1,1 @@
+Path Params : /api/users/4

@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Orange HRM Open source management QA Scenarios",
+    "children" : [ {
+      "name" : "01 - Verify Admin is able to add new Employee with upload clear image",
+      "children" : [ {
+        "name" : "01 - Verify Admin is able to add new Employee with upload clear image",
+        "uid" : "ba9dcd418de7ad4f",
+        "parentUid" : "d1ffe11f4b8f81ac8001503891aad623",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379474925,
+          "stop" : 1627379512688,
+          "duration" : 37763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fname", "jname", "Admin", "toptalImg.jpeg" ]
+      } ],
+      "uid" : "d1ffe11f4b8f81ac8001503891aad623"
+    }, {
+      "name" : "02 - Verify Admin is able to search existing employee",
+      "children" : [ {
+        "name" : "02 - Verify Admin is able to search existing employee",
+        "uid" : "bc42b2e7dc04ce8c",
+        "parentUid" : "a58bed4d953ab1b92239936e1778000a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379513076,
+          "stop" : 1627379533765,
+          "duration" : 20689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "toptalqa1", "Admin" ]
+      } ],
+      "uid" : "a58bed4d953ab1b92239936e1778000a"
+    }, {
+      "name" : "03 - Verify newly added Employee is able to subscribe to marketplace successfully",
+      "children" : [ {
+        "name" : "03 - Verify newly added Employee is able to subscribe to marketplace successfully",
+        "uid" : "d5fbd67fe9486818",
+        "parentUid" : "411a1800e0badb763180cabd8c9374f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379533811,
+          "stop" : 1627379552917,
+          "duration" : 19106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "dummy@example.com", "dummyname", "EMP" ]
+      } ],
+      "uid" : "411a1800e0badb763180cabd8c9374f0"
+    }, {
+      "name" : "04 - Verify Admin is able to subscribe top 2 Leave notifications successfully",
+      "children" : [ {
+        "name" : "04 - Verify Admin is able to subscribe top 2 Leave notifications successfully",
+        "uid" : "88d2eea425042e89",
+        "parentUid" : "903780275701f3adeb9dcb79e90dc4ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379552937,
+          "stop" : 1627379577657,
+          "duration" : 24720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Admin" ]
+      } ],
+      "uid" : "903780275701f3adeb9dcb79e90dc4ee"
+    }, {
+      "name" : "05 - Verify Admin is able to search users in directory",
+      "children" : [ {
+        "name" : "05 - Verify Admin is able to search users in directory",
+        "uid" : "e0908c1d538ea4c1",
+        "parentUid" : "750e5e37312b0e0edc676ebcf4407ed1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379577668,
+          "stop" : 1627379610677,
+          "duration" : 33009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chief Technical Officer", "Admin" ]
+      }, {
+        "name" : "05 - Verify Admin is able to search users in directory",
+        "uid" : "44fc7ad089b13298",
+        "parentUid" : "750e5e37312b0e0edc676ebcf4407ed1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379610683,
+          "stop" : 1627379639376,
+          "duration" : 28693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chief Executive Officer", "Admin" ]
+      } ],
+      "uid" : "750e5e37312b0e0edc676ebcf4407ed1"
+    } ],
+    "uid" : "a229b76f5708df952ee26bd7c6b4c246"
+  }, {
+    "name" : "Dummy Rest API QA Scenarios",
+    "children" : [ {
+      "name" : "Verify the list of user GET request return more than 5 users",
+      "children" : [ {
+        "name" : "Verify the list of user GET request return more than 5 users",
+        "uid" : "5145e71f027e3f02",
+        "parentUid" : "d9e98ccaed24cb52bb90a375c857b440",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379639506,
+          "stop" : 1627379643895,
+          "duration" : 4389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9e98ccaed24cb52bb90a375c857b440"
+    }, {
+      "name" : "Verify that user is able to fire Request to GET single user with ID",
+      "children" : [ {
+        "name" : "Verify that user is able to fire Request to GET single user with ID",
+        "uid" : "c158ba1b0fcb1493",
+        "parentUid" : "3805c03b47507953135805709506d097",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379643906,
+          "stop" : 1627379644250,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3805c03b47507953135805709506d097"
+    }, {
+      "name" : "Verify that POST requests for Create a new user",
+      "children" : [ {
+        "name" : "Verify that POST requests for Create a new user",
+        "uid" : "cad31c6d7eaa19f3",
+        "parentUid" : "496b303175bbac6fd62a2c81822d4e7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379644257,
+          "stop" : 1627379645352,
+          "duration" : 1095
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "leader", "morpheus" ]
+      } ],
+      "uid" : "496b303175bbac6fd62a2c81822d4e7f"
+    }, {
+      "name" : "Verify that POST requests for Register successfully",
+      "children" : [ {
+        "name" : "Verify that POST requests for Register successfully",
+        "uid" : "2ede12c85ed1eeb7",
+        "parentUid" : "52c01cb2395157f976b44a16b7737317",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379645358,
+          "stop" : 1627379646362,
+          "duration" : 1004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "eve.dummy@reqres.in", "pistol" ]
+      } ],
+      "uid" : "52c01cb2395157f976b44a16b7737317"
+    }, {
+      "name" : "Verify that PUT requests for Update existing user",
+      "children" : [ {
+        "name" : "Verify that PUT requests for Update existing user",
+        "uid" : "dbb7d0e7c0c5afe8",
+        "parentUid" : "5d851f962cc86ac86a66ce8e2168b910",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379646376,
+          "stop" : 1627379647456,
+          "duration" : 1080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "leader", "morpheus" ]
+      } ],
+      "uid" : "5d851f962cc86ac86a66ce8e2168b910"
+    }, {
+      "name" : "Verify that DELETE existing user",
+      "children" : [ {
+        "name" : "Verify that DELETE existing user",
+        "uid" : "3c11b2ac3915f118",
+        "parentUid" : "e5641a4a03d7e6fe68bb104f73a2b040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379647463,
+          "stop" : 1627379648401,
+          "duration" : 938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5641a4a03d7e6fe68bb104f73a2b040"
+    } ],
+    "uid" : "8f2ce19c6e03ec9475c587bba01e514b"
+  } ]
+}

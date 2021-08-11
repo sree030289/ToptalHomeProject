@@ -1,0 +1,299 @@
+{
+  "uid" : "44fc7ad089b13298",
+  "name" : "05 - Verify Admin is able to search users in directory",
+  "fullName" : "Orange HRM Open source management QA Scenarios: 05 - Verify Admin is able to search users in directory",
+  "historyId" : "faa8be5a0273e2de6456a4972211c756",
+  "time" : {
+    "start" : 1627379610683,
+    "stop" : 1627379639376,
+    "duration" : 28693
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefination.web.hooks.setUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1627379610683,
+      "stop" : 1627379612365,
+      "duration" : 1682
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "871011bbd519380",
+      "name" : "Text output",
+      "source" : "871011bbd519380.txt",
+      "type" : "text/plain",
+      "size" : 11
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User navigates to Orange HRM Application",
+      "time" : {
+        "start" : 1627379612365,
+        "stop" : 1627379619796,
+        "duration" : 7431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7c23b026cfe95490",
+        "name" : "loginScreen",
+        "source" : "7c23b026cfe95490.png",
+        "type" : "image/png",
+        "size" : 83135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given  User login into Application with \"Admin\" creds",
+      "time" : {
+        "start" : 1627379619796,
+        "stop" : 1627379624501,
+        "duration" : 4705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb8884edf7d85ddc",
+        "name" : "Text output",
+        "source" : "cb8884edf7d85ddc.txt",
+        "type" : "text/plain",
+        "size" : 24
+      }, {
+        "uid" : "c757a9cdcdb40b99",
+        "name" : "Text output",
+        "source" : "c757a9cdcdb40b99.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "d6dec1f599af1d4f",
+        "name" : "Text output",
+        "source" : "d6dec1f599af1d4f.txt",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "2c0a5767c5f79acb",
+        "name" : "Text output",
+        "source" : "2c0a5767c5f79acb.txt",
+        "type" : "text/plain",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  he navigates to Directory section",
+      "time" : {
+        "start" : 1627379624502,
+        "stop" : 1627379636377,
+        "duration" : 11875
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2209b041591376a",
+        "name" : "directory view",
+        "source" : "d2209b041591376a.png",
+        "type" : "image/png",
+        "size" : 48280
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  he provides \"Chief Executive Officer\" parameter for search item",
+      "time" : {
+        "start" : 1627379636378,
+        "stop" : 1627379637673,
+        "duration" : 1295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c6b1afb98e94a9f",
+        "name" : "select jobtitle",
+        "source" : "3c6b1afb98e94a9f.png",
+        "type" : "image/png",
+        "size" : 50453
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  verify the top result match \"Chief Executive Officer\" selected in the search",
+      "time" : {
+        "start" : 1627379637673,
+        "stop" : 1627379637844,
+        "duration" : 171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e6bc78ba6644d4bc",
+        "name" : "result",
+        "source" : "e6bc78ba6644d4bc.png",
+        "type" : "image/png",
+        "size" : 65090
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And  he logout of the application",
+      "time" : {
+        "start" : 1627379637844,
+        "stop" : 1627379639276,
+        "duration" : 1432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e00d12f80b054d2f",
+        "name" : "Logged out",
+        "source" : "e00d12f80b054d2f.png",
+        "type" : "image/png",
+        "size" : 83135
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefination.web.hooks.tearDown()",
+    "time" : {
+      "start" : 1627379639276,
+      "stop" : 1627379639375,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b56a8cd0ae9d2439",
+      "name" : "Text output",
+      "source" : "b56a8cd0ae9d2439.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "SearchUserDirector"
+  }, {
+    "name" : "tag",
+    "value" : "Regression"
+  }, {
+    "name" : "host",
+    "value" : "28cb52dbedb0"
+  }, {
+    "name" : "thread",
+    "value" : "537@28cb52dbedb0.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "story",
+    "value" : "05 - Verify Admin is able to search users in directory"
+  }, {
+    "name" : "suite",
+    "value" : "Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "05 - Verify Admin is able to search users in directory"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///var/jenkins_home/workspace/Toptal-qa-Automation-QA-Scenarios/src/main/java/feature/WebScenarios.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.java.feature.WebScenarios_feature.Orange HRM Open source management QA Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "JobTitle",
+    "value" : "Chief Executive Officer"
+  }, {
+    "name" : "UserType",
+    "value" : "Admin"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "754316e2fa0ed839",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/754316e2fa0ed839",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379155191,
+          "stop" : 1627379190309,
+          "duration" : 35118
+        }
+      }, {
+        "uid" : "62cbf87d8984a17d",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/62cbf87d8984a17d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627182868074,
+          "stop" : 1627182896142,
+          "duration" : 28068
+        }
+      } ]
+    },
+    "tags" : [ "SearchUserDirector", "Regression" ]
+  },
+  "source" : "44fc7ad089b13298.json",
+  "parameterValues" : [ "Chief Executive Officer", "Admin" ]
+}

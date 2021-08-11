@@ -1,0 +1,22 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 173476
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 180835
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 248298
+  }
+} ]

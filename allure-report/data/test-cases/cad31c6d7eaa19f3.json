@@ -1,0 +1,272 @@
+{
+  "uid" : "cad31c6d7eaa19f3",
+  "name" : "Verify that POST requests for Create a new user",
+  "fullName" : "Dummy Rest API QA Scenarios: Verify that POST requests for Create a new user",
+  "historyId" : "452d079ac1c52bfe2cf64ab8224f124f",
+  "time" : {
+    "start" : 1627379644257,
+    "stop" : 1627379645352,
+    "duration" : 1095
+  },
+  "description" : "Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.",
+  "descriptionHtml" : "<p>Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "stepDefination.rest.hooks.setUp(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1627379644257,
+      "stop" : 1627379644258,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a42aa6600c400000",
+      "name" : "Text output",
+      "source" : "a42aa6600c400000.txt",
+      "type" : "text/plain",
+      "size" : 11
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "description" : "Description: This page will contains all rest service .Thease are Fake Online REST API for Testing and Prototyping of sample application which are using rest call to display listing and crud features.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  User triggers \"POST\" Request with <\"name\">  and <\"job\">",
+      "time" : {
+        "start" : 1627379644262,
+        "stop" : 1627379645319,
+        "duration" : 1057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2605e3dd325e8e10",
+        "name" : "Text output",
+        "source" : "2605e3dd325e8e10.txt",
+        "type" : "text/plain",
+        "size" : 17
+      }, {
+        "uid" : "4daea665aad0c210",
+        "name" : "Text output",
+        "source" : "4daea665aad0c210.txt",
+        "type" : "text/plain",
+        "size" : 29
+      }, {
+        "uid" : "98c6422d22a50a2b",
+        "name" : "Text output",
+        "source" : "98c6422d22a50a2b.txt",
+        "type" : "text/plain",
+        "size" : 25
+      }, {
+        "uid" : "278b568268420463",
+        "name" : "Text output",
+        "source" : "278b568268420463.txt",
+        "type" : "text/plain",
+        "size" : 80
+      }, {
+        "uid" : "707f4deb0b80c79b",
+        "name" : "Text output",
+        "source" : "707f4deb0b80c79b.txt",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "4cb71f184fa90490",
+        "name" : "Text output",
+        "source" : "4cb71f184fa90490.txt",
+        "type" : "text/plain",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates the status code of the response as 201",
+      "time" : {
+        "start" : 1627379645319,
+        "stop" : 1627379645322,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dab90dcf69c4f6d",
+        "name" : "Text output",
+        "source" : "5dab90dcf69c4f6d.txt",
+        "type" : "text/plain",
+        "size" : 115
+      }, {
+        "uid" : "8b74a73f6229f265",
+        "name" : "Text output",
+        "source" : "8b74a73f6229f265.txt",
+        "type" : "text/plain",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates the content type of the response as \"application/json\"",
+      "time" : {
+        "start" : 1627379645322,
+        "stop" : 1627379645323,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31fde20c79ee3581",
+        "name" : "Text output",
+        "source" : "31fde20c79ee3581.txt",
+        "type" : "text/plain",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  Validates that valid <\"name\">  and <\"job\"> is returned in the response",
+      "time" : {
+        "start" : 1627379645323,
+        "stop" : 1627379645351,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "stepDefination.rest.hooks.tearDown()",
+    "time" : {
+      "start" : 1627379645351,
+      "stop" : 1627379645352,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5a5f1da0c933035f",
+      "name" : "Text output",
+      "source" : "5a5f1da0c933035f.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Rest3"
+  }, {
+    "name" : "tag",
+    "value" : "RestAPIRegression"
+  }, {
+    "name" : "host",
+    "value" : "28cb52dbedb0"
+  }, {
+    "name" : "thread",
+    "value" : "537@28cb52dbedb0.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "story",
+    "value" : "Verify that POST requests for Create a new user"
+  }, {
+    "name" : "suite",
+    "value" : "Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify that POST requests for Create a new user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///var/jenkins_home/workspace/Toptal-qa-Automation-QA-Scenarios/src/main/java/feature/RestScenarios.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.main.java.feature.RestScenarios_feature.Dummy Rest API QA Scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "job",
+    "value" : "leader"
+  }, {
+    "name" : "name",
+    "value" : "morpheus"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "42e032bb1432a39",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/42e032bb1432a39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627379196937,
+          "stop" : 1627379197973,
+          "duration" : 1036
+        }
+      }, {
+        "uid" : "cb471ec93e979721",
+        "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/cb471ec93e979721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627182903249,
+          "stop" : 1627182904559,
+          "duration" : 1310
+        }
+      } ]
+    },
+    "tags" : [ "RestAPIRegression", "Rest3" ]
+  },
+  "source" : "cad31c6d7eaa19f3.json",
+  "parameterValues" : [ "leader", "morpheus" ]
+}

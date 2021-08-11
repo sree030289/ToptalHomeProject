@@ -1,0 +1,3 @@
+response :-->{
+    "error": "Note: Only defined users succeed registration"
+}

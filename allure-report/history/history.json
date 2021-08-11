@@ -1,0 +1,462 @@
+{
+  "faa8be5a0273e2de6456a4972211c756" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "44fc7ad089b13298",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/44fc7ad089b13298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379610683,
+        "stop" : 1627379639376,
+        "duration" : 28693
+      }
+    }, {
+      "uid" : "754316e2fa0ed839",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/754316e2fa0ed839",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379155191,
+        "stop" : 1627379190309,
+        "duration" : 35118
+      }
+    }, {
+      "uid" : "62cbf87d8984a17d",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/62cbf87d8984a17d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182868074,
+        "stop" : 1627182896142,
+        "duration" : 28068
+      }
+    } ]
+  },
+  "452d079ac1c52bfe2cf64ab8224f124f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "cad31c6d7eaa19f3",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/cad31c6d7eaa19f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379644257,
+        "stop" : 1627379645352,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "42e032bb1432a39",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/42e032bb1432a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379196937,
+        "stop" : 1627379197973,
+        "duration" : 1036
+      }
+    }, {
+      "uid" : "cb471ec93e979721",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/cb471ec93e979721",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182903249,
+        "stop" : 1627182904559,
+        "duration" : 1310
+      }
+    } ]
+  },
+  "ab9a57a23086dc5f2a012f2466dabec7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c158ba1b0fcb1493",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/c158ba1b0fcb1493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379643906,
+        "stop" : 1627379644250,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "28cd0b6c96d65ed8",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/28cd0b6c96d65ed8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379195579,
+        "stop" : 1627379196924,
+        "duration" : 1345
+      }
+    }, {
+      "uid" : "395e3c6a3cd0517c",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/395e3c6a3cd0517c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182901850,
+        "stop" : 1627182903226,
+        "duration" : 1376
+      }
+    } ]
+  },
+  "b9faeb78994e30e728bb6da262eccf52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "bc42b2e7dc04ce8c",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/bc42b2e7dc04ce8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379513076,
+        "stop" : 1627379533765,
+        "duration" : 20689
+      }
+    }, {
+      "uid" : "bbb95f036e4d94f7",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/bbb95f036e4d94f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379054095,
+        "stop" : 1627379074798,
+        "duration" : 20703
+      }
+    }, {
+      "uid" : "3b4e198fa3eeb878",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/3b4e198fa3eeb878",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"resultTable\"]/tbody/tr/td[2]/a\"}\n  (Session info: headless chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.DDiRrJ}, goog:chromeOptions: {debuggerAddress: localhost:34995}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c280746f5b074d2f87959f7c1add1955\n*** Element info: {Using=xpath, value=//*[@id=\"resultTable\"]/tbody/tr/td[2]/a}",
+      "time" : {
+        "start" : 1627182692807,
+        "stop" : 1627182717510,
+        "duration" : 24703
+      }
+    } ]
+  },
+  "e7ba4d6036c5476e35f9a7e4c1551dcc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3c11b2ac3915f118",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/3c11b2ac3915f118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379647463,
+        "stop" : 1627379648401,
+        "duration" : 938
+      }
+    }, {
+      "uid" : "ebc39947c06a34cc",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/ebc39947c06a34cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379199820,
+        "stop" : 1627379200807,
+        "duration" : 987
+      }
+    }, {
+      "uid" : "e4d9d02f90aa7e03",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/e4d9d02f90aa7e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182906723,
+        "stop" : 1627182907645,
+        "duration" : 922
+      }
+    } ]
+  },
+  "6493bd220a4f713d703034c46609a4a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d5fbd67fe9486818",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/d5fbd67fe9486818",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379533811,
+        "stop" : 1627379552917,
+        "duration" : 19106
+      }
+    }, {
+      "uid" : "79f19bb1e2ee010b",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/79f19bb1e2ee010b",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"message success\"]\"}\n  (Session info: headless chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.bU7kWo}, goog:chromeOptions: {debuggerAddress: localhost:34195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d1f145534cbd6eaadfb2425eeba415a5\n*** Element info: {Using=xpath, value=//*[@class=\"message success\"]}",
+      "time" : {
+        "start" : 1627379074814,
+        "stop" : 1627379101877,
+        "duration" : 27063
+      }
+    }, {
+      "uid" : "78e9306c17115147",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/78e9306c17115147",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#menu_dashboard_index\"}\n  (Session info: headless chrome=91.0.4472.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.IvrPCM}, goog:chromeOptions: {debuggerAddress: localhost:33699}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 57582c5d98dbdab8c27302b0c2b0e88c\n*** Element info: {Using=id, value=menu_dashboard_index}",
+      "time" : {
+        "start" : 1627182717542,
+        "stop" : 1627182741064,
+        "duration" : 23522
+      }
+    } ]
+  },
+  "e5e4baff673eb5d6839614c940f045da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e0908c1d538ea4c1",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/e0908c1d538ea4c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379577668,
+        "stop" : 1627379610677,
+        "duration" : 33009
+      }
+    }, {
+      "uid" : "d86652fd5fa677f0",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/d86652fd5fa677f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379129374,
+        "stop" : 1627379155174,
+        "duration" : 25800
+      }
+    }, {
+      "uid" : "3e40683cb3d67035",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/3e40683cb3d67035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182849729,
+        "stop" : 1627182868066,
+        "duration" : 18337
+      }
+    } ]
+  },
+  "49bc09e41ebc38ca0d361ba00e9ec7ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "5145e71f027e3f02",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/5145e71f027e3f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379639506,
+        "stop" : 1627379643895,
+        "duration" : 4389
+      }
+    }, {
+      "uid" : "f52ee31f3aaf64a1",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/f52ee31f3aaf64a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379191622,
+        "stop" : 1627379195573,
+        "duration" : 3951
+      }
+    }, {
+      "uid" : "b26d621a560d40f7",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/b26d621a560d40f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182896446,
+        "stop" : 1627182901842,
+        "duration" : 5396
+      }
+    } ]
+  },
+  "5eda8e46e6da1495331458c1b8435e04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "88d2eea425042e89",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/88d2eea425042e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379552937,
+        "stop" : 1627379577657,
+        "duration" : 24720
+      }
+    }, {
+      "uid" : "29f402ca0f322679",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/29f402ca0f322679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379101899,
+        "stop" : 1627379129370,
+        "duration" : 27471
+      }
+    }, {
+      "uid" : "80a7ea7ed8612e44",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/80a7ea7ed8612e44",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_CONNECTION_REFUSED\n  (Session info: headless chrome=91.0.4472.114)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '28cb52dbedb0', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.25-linuxkit', java.version: '1.8.0_221'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: /tmp/.com.google.Chrome.RPciiE}, goog:chromeOptions: {debuggerAddress: localhost:40465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://172.17.0.3:4444/sessio..., se:cdpVersion: 91.0.4472.114, se:vnc: ws://172.17.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://localhost:7900/websockify, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ea68de8e8f3d3cfd35c6c7df756125d1",
+      "time" : {
+        "start" : 1627182741082,
+        "stop" : 1627182849658,
+        "duration" : 108576
+      }
+    } ]
+  },
+  "507a3368ff9e2f88fc14a9e6f4fb239e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "dbb7d0e7c0c5afe8",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/dbb7d0e7c0c5afe8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379646376,
+        "stop" : 1627379647456,
+        "duration" : 1080
+      }
+    }, {
+      "uid" : "f08becb2064bc16e",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/f08becb2064bc16e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379198904,
+        "stop" : 1627379199813,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "d4fb96092ad2733e",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/d4fb96092ad2733e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182905613,
+        "stop" : 1627182906712,
+        "duration" : 1099
+      }
+    } ]
+  },
+  "67bbc1945c5ab9ba8e22197b647dadc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "2ede12c85ed1eeb7",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/2ede12c85ed1eeb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379645358,
+        "stop" : 1627379646362,
+        "duration" : 1004
+      }
+    }, {
+      "uid" : "acf6a671c18f0fae",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/acf6a671c18f0fae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379197980,
+        "stop" : 1627379198892,
+        "duration" : 912
+      }
+    }, {
+      "uid" : "e95323aa06326cf2",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/e95323aa06326cf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182904569,
+        "stop" : 1627182905600,
+        "duration" : 1031
+      }
+    } ]
+  },
+  "264d086a9d2ccc58e1db2cd1c72e645b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ba9dcd418de7ad4f",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/3/allure/#testresult/ba9dcd418de7ad4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379474925,
+        "stop" : 1627379512688,
+        "duration" : 37763
+      }
+    }, {
+      "uid" : "d5f9428e228f1a39",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/2/allure/#testresult/d5f9428e228f1a39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627379019972,
+        "stop" : 1627379053750,
+        "duration" : 33778
+      }
+    }, {
+      "uid" : "e2b887c9b59861a6",
+      "reportUrl" : "http://toptalqa:8080/job/Toptal-qa-Automation-QA-Scenarios/1/allure/#testresult/e2b887c9b59861a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627182659347,
+        "stop" : 1627182692125,
+        "duration" : 32778
+      }
+    } ]
+  }
+}

@@ -1,0 +1,1 @@
+Validate if the employee is created successfully by comparing the emp id
